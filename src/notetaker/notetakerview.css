@@ -1,0 +1,18 @@
+
+.root {
+    -fx-background-color: #455A64;
+}
+
+.label {
+    -fx-background-color: #CFD8DC;
+    -fx-padding: 3px;
+}
+
+.button {
+    -fx-background-color: #FF5252;
+}
+
+.button:hover {
+    -fx-background-color: #EE4141;
+    -fx-cursor: hand;
+}
