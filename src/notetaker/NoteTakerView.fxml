@@ -20,7 +20,7 @@
             <TextField fx:id="titleTextField" maxWidth="-Infinity" prefHeight="25.0" prefWidth="150.0" promptText="Title" />
             <TextField fx:id="tagsTextField" maxWidth="-Infinity" prefWidth="200.0" promptText="Directory (for sub use '/')" />
             <TextArea fx:id="docTextArea" prefHeight="200.0" prefWidth="200.0" promptText="Type notes here" />
-            <HBox prefHeight="100.0" prefWidth="200.0">
+            <HBox prefHeight="36.0" prefWidth="286.0">
                <children>
                   <Label fx:id="messageLabel" prefHeight="17.0" prefWidth="186.0">
                      <HBox.margin>
@@ -32,6 +32,16 @@
                         <Insets />
                      </HBox.margin>
                   </Button>
+               </children>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <TextField fx:id="openTextField" prefHeight="17.0" prefWidth="186.0" promptText="Open file">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </TextField>
+                  <Button mnemonicParsing="false" onAction="#clickOpenButton" prefHeight="25.0" prefWidth="82.0" text="Open" />
                </children>
             </HBox>
          </children>
